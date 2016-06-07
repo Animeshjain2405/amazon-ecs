@@ -56,7 +56,8 @@ module Amazon
 
     @@options = {
       :version => "2013-08-01",
-      :service => "AWSECommerceService"
+      :service => "AWSECommerceService",
+      :ResponseGroup => "Offers"
     }
 
     @@debug = false
